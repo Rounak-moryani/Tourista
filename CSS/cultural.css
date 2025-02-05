@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #1a1a1a, #000000);
+    font-family: arial, sans-serif;
+}
+
+* a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+.nav-bar {
+    height: 7rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: arial, sen-serif;
+}
+
+.nav-bar img {
+    width: 20%;
+    height: 80%;
+    margin-left: 2rem;
+}
+
+.Tourista-logo {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Oleo Script", system-ui;
+
+}
+
+.links {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.myicon i {
+    position: relative;
+    left: -0.5rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+main {
+    width: 100%;
+    height: 200rem;
+}
+
+.whole-main {
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    height: 35rem;
+    background-color: #123458;
+}
+
+.whole-main img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 4rem;
+    background-color: #131a22;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu .side-menu input {
+    width: 45rem;
+    height: 2rem;
+}
+
+.side-menu button {
+    width: 7rem;
+    height: 2.3rem;
+}
+
+.trending {
+    width: 95%;
+    height: 65rem;
+    background-color: #000000;
+    margin-top: 2rem;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trend-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.trend-box .boxs {
+    width: 30%;
+    height: 25rem;
+    background-color: #000000;
+    text-align: left;
+}
+
+.boxs h3 {
+    margin: 0;
+}
+
+.bottom {
+    margin-bottom: 2rem;
+}
+
+.recent {
+    width: 95%;
+    height: 35rem;
+    background-color: #000000;
+    margin-top: 2rem;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.recent h2 {
+    margin-bottom: 4rem;
+}
+
+.recent-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.re-boxs {
+    width: 30%;
+    height: 75%;
+    background-color: #dddddd;
+    text-align: left;
+}
+
+.re-boxs h3 {
+    margin: 0;
+}
+
+.best-time {
+    width: 95%;
+    height: 50rem;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+table {
+    width: 95%;
+    height: 80%;
+    border: 0.1rem solid #dddddd;
+    border-collapse: collapse;
+}
+
+.best-time table th,
+td {
+    border: 0.1rem solid #dddddd;
+}
+
+table th {
+    background-color: rgb(110, 110, 110);
+}
+
+footer {
+    height: 35rem;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    height: 10%;
+    background-color: #123456;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.contact i {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-top: 0.4rem;
+}
+
+.main-footer {
+    width: 100%;
+    height: 90%;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foot-box {
+    width: 20rem;
+    height: 15rem;
+    color: #dddddd;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.foot-box ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.foot-box h2 {
+    margin: 0;
+}
+
+.foot-box a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.side-foot {
+    width: 40rem;
+    height: 8rem;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-foot li:hover {
+    text-decoration: underline;
+}
+
+.sub-foot-info span {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.sub-foot-info button {
+    width: 7rem;
+    height: 2rem;
+    position: relative;
+    top: -0.1rem;
+    right: -0.5rem;
+    background-color: #123458;
+    color: #dddddd;
+}
+
+.copy-right {
+    width: 100%;
+    height: 5rem;
+    background-color: #131a22;
+    ;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+
+.copy-right span {
+    position: relative;
+    bottom: -0.2rem;
+    color: #dddddd;
+}
+
+.Info-copy {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+    gap: 2.5rem;
+    position: relative;
+    bottom: -0.5rem;
+}
+
+.Info-copy a {
+    color: #dddddd;
+    text-decoration: none;
+}
