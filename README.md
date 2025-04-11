@@ -4,7 +4,7 @@
 
 ## ✨ Features
 
-- 🎯 **Responsive Design**: Optimized for mobile, tablet, and desktop views.
+- 🎯 **Responsive Design**: Not Optimized for mobile, tablet views.
 - 🧭 **Main Booking Section**: Visually engaging area to explore and initiate travel plans.
 - 📂 **Categories Section**: Informative and easy-to-navigate layout showcasing travel categories and destinations.
 - 🔥 **Minimal & Clean UI**: Focus on simplicity and clarity to enhance user experience.
@@ -15,5 +15,3 @@
 - **HTML5**
 - **CSS3**
 - No JavaScript or backend — purely frontend.
-
-## 📁 Project Structure
